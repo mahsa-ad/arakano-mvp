@@ -33,8 +33,8 @@ export const layouts: LayoutType[] = [
     image: "https://www.mrcabinetcare.com/wp-content/uploads/Modern-Kitchen-Design-Ideas.jpg",
     experience: {
       model: {
-        glb: "/models/products/Untitled4.glb",
-        usdz: "/models/products/Untitled4.usdz",
+        glb: "/arakano-mvp/models/products/Untitled4.glb",
+        usdz: "/arakano-mvp/models/products/Untitled4.usdz",
       },
 
       ar: {
@@ -68,8 +68,8 @@ export const layouts: LayoutType[] = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwa4ZqxisHEQhQYkqFp7-cFHaLeoCFtfY4pg&s",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -101,8 +101,8 @@ export const layouts: LayoutType[] = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7puLytvEYGldhBvZi2DbtvOghuouK6u4yA&s",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -137,8 +137,8 @@ export const layouts: LayoutType[] = [
           image: "https://images.thdstatic.com/productImages/ffd0d73b-92bc-40af-9c60-209464970296/svn/matte-black-pendant-lights-4500p8-mb-64_600.jpg",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -170,8 +170,8 @@ export const layouts: LayoutType[] = [
           image: "https://www.bespokelights.co.uk/images/beso-retro-style-dark-bronze-ceiling-pendant-light-medium-p2379-5450_related.jpg",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -202,8 +202,8 @@ export const layouts: LayoutType[] = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLhR40Xg9Bg1xdQ4i898c9gpW1nkZFlpVTQ&s",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -238,8 +238,8 @@ export const layouts: LayoutType[] = [
           image: "https://images.thdstatic.com/productImages/ffd0d73b-92bc-40af-9c60-209464970296/svn/matte-black-pendant-lights-4500p8-mb-64_600.jpg",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -271,8 +271,8 @@ export const layouts: LayoutType[] = [
           image: "https://www.bespokelights.co.uk/images/beso-retro-style-dark-bronze-ceiling-pendant-light-medium-p2379-5450_related.jpg",
           experience: {
             model: {
-              glb: "/models/products/Untitled4.glb",
-              usdz: "/models/products/Untitled4.usdz",
+              glb: "/arakano-mvp/models/products/Untitled4.glb",
+              usdz: "/arakano-mvp/models/products/Untitled4.usdz",
             },
 
             ar: {
@@ -303,8 +303,8 @@ export const layouts: LayoutType[] = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLhR40Xg9Bg1xdQ4i898c9gpW1nkZFlpVTQ&s",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -339,8 +339,8 @@ export const layouts: LayoutType[] = [
           image: "https://images.thdstatic.com/productImages/ffd0d73b-92bc-40af-9c60-209464970296/svn/matte-black-pendant-lights-4500p8-mb-64_600.jpg",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -372,8 +372,8 @@ export const layouts: LayoutType[] = [
           image: "https://www.bespokelights.co.uk/images/beso-retro-style-dark-bronze-ceiling-pendant-light-medium-p2379-5450_related.jpg",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {
@@ -404,8 +404,8 @@ export const layouts: LayoutType[] = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLhR40Xg9Bg1xdQ4i898c9gpW1nkZFlpVTQ&s",
           experience: {
             model: {
-              glb: "/models/layouts/Untitled4.glb",
-              usdz: "/models/layouts/Untitled4.usdz",
+              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
+              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
             },
 
             ar: {

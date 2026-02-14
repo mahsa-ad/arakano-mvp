@@ -17,7 +17,9 @@ export default function ARPreview() {
   const qrSize = layout.experience?.qr?.size || 220;
 
   // const qrValue = `${window.location.origin}/ar/${layout.id}`;
-  const qrValue = `${window.location.protocol}//${window.location.hostname}:5173/ar/${layout.id}`;
+  // const qrValue = `${window.location.protocol}//${window.location.hostname}:5173/ar/${layout.id}`;
+  const qrValue = window.location.href;
+
 
 
   return (
