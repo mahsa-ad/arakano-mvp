@@ -46,7 +46,7 @@ export default function ARPreview() {
           src: glbSrc,
           "ios-src": usdzSrc,
           ar: true,
-          "ar-modes": "scene-viewer quick-look webx",
+          "ar-modes": "scene-viewer quick-look webxr",
           "ar-placement": "floor",
           "camera-controls": true,
           "auto-rotate": true,

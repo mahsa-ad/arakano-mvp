@@ -33,8 +33,8 @@ export const layouts: LayoutType[] = [
     image: "https://www.mrcabinetcare.com/wp-content/uploads/Modern-Kitchen-Design-Ideas.jpg",
     experience: {
       model: {
-        glb: "/arakano-mvp/models/products/Untitled4.glb",
-        usdz: "/arakano-mvp/models/products/Untitled4.usdz",
+              glb:  `${import.meta.env.BASE_URL}models/products/Untitled4.glb`,
+              usdz: `${import.meta.env.BASE_URL}models/products/Untitled4.usdz`,
       },
 
       ar: {
@@ -68,8 +68,8 @@ export const layouts: LayoutType[] = [
           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwa4ZqxisHEQhQYkqFp7-cFHaLeoCFtfY4pg&s",
           experience: {
             model: {
-              glb: "/arakano-mvp/models/layouts/Untitled4.glb",
-              usdz: "/arakano-mvp/models/layouts/Untitled4.usdz",
+              glb:  `${import.meta.env.BASE_URL}models/products/Untitled4.glb`,
+              usdz: `${import.meta.env.BASE_URL}models/products/Untitled4.usdz`,
             },
 
             ar: {
