@@ -17,7 +17,6 @@ export default function ARPreview() {
   const qrSize = layout.experience?.qr?.size || 220;
 
   // const qrValue = `${window.location.origin}/ar/${layout.id}`;
-  // const qrValue = `${window.location.protocol}//${window.location.hostname}:5173/ar/${layout.id}`;
   const qrValue = window.location.href;
 
 
@@ -57,30 +56,6 @@ export default function ARPreview() {
             background: "#fff",
           }
         })}
-
-        {/* {layout.experience?.model && (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: `
-                <model-viewer
-                  src="${glbSrc}"
-                  ios-src="${usdzSrc}"
-                  ar
-                  ar-modes="scene-viewer quick-look webxr"
-                  ar-placement="floor"
-                  camera-controls
-                  auto-rotate
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    borderRadius: "24px",
-                    background: "#fff",
-                  }}
-                ></model-viewer>
-              `,
-            }}
-          />
-        )} */}
 
       </div>
 
