@@ -17,7 +17,11 @@ export default function ARPreview() {
   const qrSize = layout.experience?.qr?.size || 220;
 
   // const qrValue = `${window.location.origin}/ar/${layout.id}`;
-  const qrValue = window.location.href;
+  // const qrValue = window.location.href;
+  const arUrl = window.location.href;
+
+
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
 
 
@@ -41,7 +45,31 @@ export default function ARPreview() {
         }}
       >
 
-        {model && React.createElement("model-viewer", {
+        {model && (
+          isMobile ? (
+            React.createElement("model-viewer", {
+              src: glbSrc,
+              "ios-src": usdzSrc,
+              ar: true,
+              "ar-modes": "scene-viewer quick-look webxr",
+              "ar-placement": "floor",
+              "camera-controls": true,
+              "auto-rotate": true,
+              style: {
+                width: "100%",
+                height: "100vh",
+                background: "#fff",
+              }
+            })
+          ) : (
+            <div style={{ textAlign: "center" }}>
+              <h2>با موبایل اسکن کنید</h2>
+              <QRCode value={window.location.href} />
+            </div>
+          )
+        )}
+
+        {/* {model && React.createElement("model-viewer", {
           src: glbSrc,
           "ios-src": usdzSrc,
           ar: true,
@@ -55,7 +83,7 @@ export default function ARPreview() {
             borderRadius: "24px",
             background: "#fff",
           }
-        })}
+        })} */}
 
       </div>
 
@@ -78,7 +106,7 @@ export default function ARPreview() {
             مشاهده چیدمان در فضای شما
           </h2>
 
-          <QRCode value={qrValue} size={qrSize} />
+          <QRCode value={arUrl} size={qrSize} />
 
           <p
             style={{
