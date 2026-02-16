@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Layouts from "./pages/Layouts";
 import Customize from "./pages/Customize";
@@ -8,7 +8,7 @@ import ARPreview from "./pages/ARPreview";
 
 function App() {
   return (
-      <HashRouter>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/layout/:id" element={<Layouts />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="/customize/:id" element={<Customize />} />
           <Route path="/ar/:id" element={<ARPreview />} />
         </Routes>
-      </HashRouter>
+  
   );
 }
 

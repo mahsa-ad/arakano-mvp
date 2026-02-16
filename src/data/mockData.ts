@@ -35,6 +35,9 @@ export const layouts: LayoutType[] = [
       model: {
               glb:  `${import.meta.env.BASE_URL}models/products/Untitled4.glb`,
               usdz: `${import.meta.env.BASE_URL}models/products/Untitled4.usdz`,
+              // glb: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+              // usdz: "https://modelviewer.dev/shared-assets/models/Astronaut.usdz",
+
       },
 
       ar: {

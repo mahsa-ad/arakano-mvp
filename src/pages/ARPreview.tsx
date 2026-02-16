@@ -18,12 +18,38 @@ export default function ARPreview() {
 
   // const qrValue = `${window.location.origin}/ar/${layout.id}`;
   // const qrValue = window.location.href;
-  const arUrl = window.location.href;
-
-
+  const arUrl = `${window.location.origin}/arakano-mvp/#/ar/${layout.id}`;
   const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
 
+if (isMobile) {
+    return (
+      <div style={{ height: "100vh", background: "#fff" }}>
+        {model &&
+          React.createElement("model-viewer", {
+            src: glbSrc,
+            "ios-src": usdzSrc,
+            ar: true,
+            "ar-modes": "scene-viewer quick-look webxr",
+            "ar-scale": "fixed",
+            "ar-rotate": "auto",
+            "ar-placement": "floor",
+            // "ar-placement": "wall",
+            "camera-controls": true,
+            "disable-zoom": true,
+            "touch-action": "pan-y",
+            "interaction-prompt": "auto",
+            // "auto-rotate": false,
+            "environment-image": "neutral",
+            style: {
+              width: "100%",
+              height: "100vh",
+              background: "#fff",
+            },
+          })}
+      </div>
+    );
+  }
 
   return (
     <div
@@ -45,29 +71,24 @@ export default function ARPreview() {
         }}
       >
 
-        {model && (
-          isMobile ? (
-            React.createElement("model-viewer", {
-              src: glbSrc,
-              "ios-src": usdzSrc,
-              ar: true,
-              "ar-modes": "scene-viewer quick-look webxr",
-              "ar-placement": "floor",
-              "camera-controls": true,
-              "auto-rotate": true,
-              style: {
-                width: "100%",
-                height: "100vh",
-                background: "#fff",
-              }
-            })
-          ) : (
-            <div style={{ textAlign: "center" }}>
-              <h2>با موبایل اسکن کنید</h2>
-              <QRCode value={window.location.href} />
-            </div>
-          )
-        )}
+
+        {model &&
+          React.createElement("model-viewer", {
+            src: glbSrc,
+            "ios-src": usdzSrc,
+            // ar: true,
+            // "ar-modes": "scene-viewer quick-look webxr",
+            // "ar-placement": "floor",
+            "camera-controls": true,
+            "auto-rotate": true,
+            style: {
+              width: "100%",
+              height: "100vh",
+              background: "#fff",
+            },
+          })
+        }
+
 
         {/* {model && React.createElement("model-viewer", {
           src: glbSrc,
@@ -103,7 +124,7 @@ export default function ARPreview() {
           }}
         >
           <h2 style={{ margin: 0 }}>
-            مشاهده چیدمان در فضای شما
+            مشاهده در فضای شما
           </h2>
 
           <QRCode value={arUrl} size={qrSize} />
@@ -116,7 +137,7 @@ export default function ARPreview() {
             }}
           >
             با موبایل QR را اسکن کنید  
-            و چیدمان را در فضای واقعی ببینید
+            و در فضای واقعی ببینید
           </p>
 
           {/* دکمه برگشت اینجا آمد */}
@@ -132,7 +153,7 @@ export default function ARPreview() {
               cursor: "pointer",
             }}
           >
-            بازگشت به صفحه قبل
+            بازگشت 
           </button>
         </div>
       )}
