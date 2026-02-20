@@ -1,3 +1,7 @@
+import { useState } from "react";
+import "./SpaceTabs.css"
+
+
 type Props = {
   value: string;
   onChange: (id: string) => void;
