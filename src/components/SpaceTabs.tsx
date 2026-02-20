@@ -12,20 +12,13 @@ export default function SpaceTabs({ value, onChange, items }: Props) {
   return (
     <div style={{ display: "flex", justifyContent: "center", gap: 16 }}>
       {items.map((item) => (
-        <button
+        <div
           key={item.id}
           onClick={() => onChange(item.id)}
-          style={{
-            padding: "8px 16px",
-            borderRadius: 20,
-            border: "1px solid #ccc",
-            background: value === item.id ? "#32127A" : "#fff",
-            color: value === item.id ? "#fff" : "#32127A",
-            cursor: "pointer",
-          }}
-        >
+          className="space-card">
+            <img src="" alt="" />
           {item.label}
-        </button>
+        </div>
       ))}
     </div>
   );
