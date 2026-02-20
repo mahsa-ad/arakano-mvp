@@ -15,8 +15,8 @@ export default function SpaceTabs({ value, onChange, items }: Props) {
             padding: "8px 16px",
             borderRadius: 20,
             border: "1px solid #ccc",
-            background: value === item.id ? "#000" : "#fff",
-            color: value === item.id ? "#fff" : "#000",
+            background: value === item.id ? "#32127A" : "#fff",
+            color: value === item.id ? "#fff" : "#32127A",
             cursor: "pointer",
           }}
         >
