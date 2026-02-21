@@ -1,33 +1,38 @@
-
-.spaceTabs-container{
-    display: "flex", justifyContent: "center", gap: 16
-    width: 1184px
+:root{
+    --primary-color: #32127A;
     
 }
 
-.space-card{
-    width: 200px;
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 16px;
-    border: 2px solid transparent;
-    transition: 0.3s;
-    text-align: center;
-    font-family: IRANYekanMobileFN ;
+.spaceTabs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.space-card img{
-    width: 100%;
-    height: 257px;
-    object-fit: cover;
+.space-card{
+    flex-basis: auto;
+    width: 200px;
+    cursor: pointer;
+    padding: 8px 16px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    font-family: IRANYekanMobileFN;
 }
-.space-card span{
+
+.space-card-img{
+    width: 100%;
+}
+.space-card-span{
     display: block;
     padding: 8px;
 }
-.space-card :hover{
+.space-card:hover{
     transform: translateY(-4px);
+    
 }
 .space-card:active{
-    box-shadow: -2px 2px gray;
+    box-shadow: 0 2px gray;
 }

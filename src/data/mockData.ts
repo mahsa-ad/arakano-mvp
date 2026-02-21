@@ -1,12 +1,17 @@
+import { i, image } from "framer-motion/client";
 import type { LayoutType } from "../types/types";
-
+import kitchenImg from "../assets/spaces/kitchen.png"
+import livingroomImg from "../assets/spaces/livingrom.png"
+import bedroomImg from "../assets/spaces/bedroom.png"
+import dinningroomImg from "../assets/spaces/diningroom.png"
+import bathroomImg from "../assets/spaces/bathroom.png"
 
 export const spaces = [
-  { id: "kitchen", label: "آشپزخانه" },
-  { id: "living", label: "پذیرایی" },
-  { id: "dining", label: "ناهار خوری" },
-  { id: "bedroom", label: "اتاق خواب" },
-  { id: "bathroom", label: "سرویس بهداشتی" },
+  { id: "kitchen", label: "آشپزخانه", image: kitchenImg },
+  { id: "living", label: "پذیرایی", image: livingroomImg },
+  { id: "dining", label: "ناهار خوری", image: dinningroomImg },
+  { id: "bedroom", label: "اتاق خواب" , image: bedroomImg },
+  { id: "bathroom", label: "سرویس بهداشتی" , image: bathroomImg },
 ];
 
 export const styles = [
